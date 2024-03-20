@@ -17,8 +17,7 @@ import streamlit as st
 ASTRADB_TOKEN= os.getenv("ASTRADB_TOKEN")
 ASTRADB_ENDPOINT= os.getenv("ASTRADB_ENDPOINT")
 
-ASTRADB_TOKEN='AstraCS:XhhSeapeErChCSEkWbgeRhpU:3466c8c2c64d25a42ae65a8c7dd9647565ae2aa2357970226a6db2d49d6c93cb'
-ASTRADB_ENDPOINT='https://f89515af-5e74-45d9-902f-51a53f75a4fb-ap-south-1.apps.astra.datastax.com'
+
 
 embeddings = HuggingFaceEmbeddings()
 
